@@ -25,4 +25,4 @@ String.prototype.filterWords = async function (...words) {
     return answer;
 };
 
-console.log('this house is nice !'.filterWords('house', 'nice'));
+'this house is nice !'.filterWords('house', 'nice');
