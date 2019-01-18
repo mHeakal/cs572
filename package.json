@@ -1,0 +1,23 @@
+{
+  "name": "cs572",
+  "version": "1.0.0",
+  "description": "Mohammed Heakal: \r this is the assignments and project repository for MWA course MUM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mHeakal/cs572.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mHeakal/cs572/issues"
+  },
+  "homepage": "https://github.com/mHeakal/cs572#readme",
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  }
+}
