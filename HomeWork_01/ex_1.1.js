@@ -14,4 +14,4 @@ String.prototype.filterWords = function (...words) {
     });
     return result;
 };
-console.log('this house is nice !'.filterWords('house', 'nice'));
+console.log('this house is nice !'.filterWords('house', 'nice','is'));

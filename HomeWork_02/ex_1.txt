@@ -4,7 +4,7 @@ ans - Because somtimes we want a function to be called after I/O.
 
 2 - The differance between process.nextTick and setImmediate?
 
-ans - Both of them are queues but setImmediate queue is a part of the Event Loop queues and it has and order between queues to be excuted on the other hand process,nextTick is a seperate queue and it has the highest oioraity in all of the queues and anything that will be added to it will be called first.
+ans - Both of them are queues but setImmediate queue is a part of the Event Loop queues and it has and order between queues to be excuted on the other hand process,nextTick is a seperate queue and it has the highest pioraity in all of the queues and anything that will be added to it will be called first.
 
 3 - Name 10 core modules of Node?
 ans -   html
