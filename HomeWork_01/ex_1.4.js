@@ -20,4 +20,3 @@ filterWords = new Promise((resolve, reject) => {
     }, 1000)
 });
 from(filterWords).subscribe((e) => console.log(e));
-// console.log('this house is nice !'.filterWords('house', 'nice'));
