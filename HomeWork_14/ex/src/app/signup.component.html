@@ -1,0 +1,36 @@
+<div id="login">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1>Sign Up</h1>
+      <p>Please fill this form to create an account!</p>
+      <hr>
+      <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div formGroupName="signup">
+          <div class="input-group">
+            <input type="text" placeholder="First Name" class="form-control" id="firstname" formControlName="firstname">
+            <span class="input-group-btn" style="width:0px; margin-left: 5px;margin-right: 5px"></span>
+            <input type="text" placeholder="Last Name" class="form-control" id="lastname" formControlName="lastname">
+          </div>
+          <div class="form-group">
+            <span style="margin: 5px"></span>
+            <input type="text" class="form-control" id="email" formControlName="email" placeholder="Email">
+            <div *ngIf="!myForm.get('signup').get('email').valid">
+              Invalid Email
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="password" formControlName="password" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="confirmpassword" formControlName="confirmpassword" placeholder="Confirm Password">
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="checkbox" formControlName="checkbox" required> I accept the <a href="#">Terms of use</a> &amp;<a href="#"> Privacy policy</a>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!myForm.valid" >Submit</button>
+      </form>
+      <hr>
+    </div>
+  </div>
+</div>
