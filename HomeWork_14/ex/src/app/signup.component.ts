@@ -52,13 +52,8 @@ export class SignupComponent implements OnInit {
           error => resolve({ invalid: true }));
       }, (600));
     });
-
-
   }
-
-
-
-
+  
   ngOnInit() {
   }
 
