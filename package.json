@@ -21,7 +21,7 @@
     "aes256": "^1.0.4",
     "aggregate": "^0.1.0",
     "aggregation": "^1.2.5",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-generator": "^4.16.0",
