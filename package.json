@@ -23,7 +23,7 @@
     "aggregation": "^1.2.5",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-generator": "^4.16.0",
     "express-installer": "0.0.3",
     "js-to-ts-converter": "^0.16.2",
